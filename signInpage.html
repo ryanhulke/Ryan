@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" href = "./signInStyles.css">
+    </head>
+    <body>
+            <section id = "title">
+                &emsp;&emsp;&emsp;Tourney Base
+            </section>
+            <section class = "background"></section>
+            <section id = "logo">   
+                <img src="TourneyBaseLogo.png" alt="Logo">
+            </section>
+        <form id = "login">
+            <div id = "loginEl">
+                Sign In
+            </div>
+            <div id = "createAccEl">Create Account</div>
+            <input id = "username" placeholder="Username">
+            <br>
+            <input id = "password"placeholder = "Password">
+            <br>
+            <input id="confirmPass" placeholder="Confirm Password">
+                <button id = "enter" type = "button" onclick = "signIn()">Log In</button>
+                <br>
+                <hr id = "hrule">
+                <button id = "createAcc" type = "button" onclick = "createAccount()">Create Account</button>
+            </div>
+        </form>
+        <script src = "./signInSystem.js"></script>
+    </body>
+</html>

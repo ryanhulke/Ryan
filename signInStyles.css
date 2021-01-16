@@ -1,0 +1,126 @@
+#logo {
+    position: relative;
+    width: 55px;
+    height: 55px;
+    z-index: 10;
+    padding-left: 0;
+    margin: 0;
+    padding-bottom: 4px;
+}
+img {
+   width: 100%;
+}
+#title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 55px;
+    background: linear-gradient(to bottom right, rgb(111, 207, 224), rgb(59, 148, 163));
+    font: arial;
+    font-size : 30px;
+    text-align: left;
+    padding-top: 15px;
+    color: white;
+    z-index: 2;
+}
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    background: linear-gradient(to top right, #fff, rgb(240, 239, 239));
+    z-index: 1;
+}
+#login {
+    position: absolute;
+    font: helvetica;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    top: 250px;
+    left: 40%;
+    height: 240px;
+    width: 280px;
+    background: white;
+    font-size: 15pt;
+    color: black;
+    text-align: left;
+    line-height: 2.7em;
+    z-index: 1000;
+    border-radius: 20px;
+    box-shadow: 20px;
+    border-width: 10px;
+    border-color: linear-gradient(to bottom right, rgb(111, 207, 224), rgb(59, 148, 163));
+}
+#loginEl {
+    text-align: center;
+    font-size: 16pt;
+}
+#enter {
+    position: absolute;
+    top: 200px;
+    left: 140px;
+    border: none;
+    background:rgb(111, 207, 224);
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 13pt;
+}
+#enter:hover {
+background: rgb(91, 187, 204);
+}
+#createAcc {
+    position: absolute;
+    top: 265px;
+    left: 120px;
+    border: none;
+    background:rgb(81, 190, 105);
+    color: white;
+    border-radius: 5px;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    font-size: 13pt;
+}
+#createAcc:hover {
+    background: rgb(61, 170, 85);
+}
+#username {
+    width:270px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:lightgrey;
+    font-size: 13pt;
+}
+#password {
+    width:270px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:lightgrey;
+    font-size: 13pt;
+}
+#createAccEl {
+    text-align: center;
+    font-size: 16pt;
+    display:none;
+}
+#confirmPass {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+    width:270px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:lightgrey;
+    font-size: 13pt;
+    line-height: 2.7em;
+    display: none;
+}
